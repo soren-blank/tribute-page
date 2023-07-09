@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color:#333;
+    display:block;
+}
+
+main{
+    display: block;
+}
+
+h3{
+    padding-top: 50px;
+    text-align: center;
+}
+
+figure{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+figcaption{
+    display:block;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    display: block;
+    padding: 0 0 10px 0;
+}
+
+ul{
+    max-width: 550px;
+    margin:0 auto 50px auto;
+}
+
+li{
+    display:list-item;
+}
+
+blockquote{
+    display: block;
+    margin: 0 auto 50px auto;
+    max-width: 550px;
+}
+
+#tribute-info p{
+    justify-content: center;
+    max-width: 550px;
+}
+
+#main{
+    margin:30px 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#title{
+    text-align: center;
+    display: block;
+}
+
+#sub-title{
+    text-align: center;
+    font-weight: 300;
+    display: block;
+}
+
+#click{
+    text-align: center;
+    display: block;
+    max-width: 550px;
+    margin:0;
+    padding:0
+}
+
+#click a{
+    text-decoration: none;
+    color:#477ca7;
+}
